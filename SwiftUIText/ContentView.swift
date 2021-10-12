@@ -18,7 +18,8 @@ struct ContentView: View {
             .truncationMode(.head)
             .lineSpacing(10)
             .padding()
-            .rotationEffect(.degrees(20), anchor: UnitPoint(x: 0, y: 0))
+//            .rotationEffect(.degrees(20), anchor: UnitPoint(x: 0, y: 0))
+            .rotation3DEffect(.degrees(60), axis: (x: 1, y: 0, z: 0))
     }
 }
 
