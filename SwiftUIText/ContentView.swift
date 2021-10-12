@@ -20,6 +20,7 @@ struct ContentView: View {
             .padding()
 //            .rotationEffect(.degrees(20), anchor: UnitPoint(x: 0, y: 0))
             .rotation3DEffect(.degrees(60), axis: (x: 1, y: 0, z: 0))
+            .shadow(color: .gray, radius: 2, x: 0, y: 15)
     }
 }
 
