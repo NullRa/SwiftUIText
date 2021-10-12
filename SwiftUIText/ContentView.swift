@@ -17,6 +17,7 @@ struct ContentView: View {
             .lineLimit(nil)
             .truncationMode(.head)
             .lineSpacing(10)
+            .padding()
     }
 }
 
