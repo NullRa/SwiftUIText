@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         Text("段落1 Stay Hungry, Stay Foolish.")
             .fontWeight(.bold)
-            .font(.title)
+            .font(.system(size: 20))
     }
 }
 
