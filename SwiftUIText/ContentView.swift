@@ -9,10 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("段落1 Stay Hungry, Stay Foolish.")
+        Text("段落1 Stay Hungry, Stay Foolish. 段落2 Stay Hungry, Stay Foolish. 段落3 Stay Hungry, Stay Foolish. 段落4 Stay Hungry, Stay Foolish. 段落5 Stay Hungry, Stay Foolish. 段落6 Stay Hungry, Stay Foolish. ")
             .fontWeight(.bold)
             .font(.system(.largeTitle, design: .rounded))
             .foregroundColor(.green)
+            .multilineTextAlignment(.center)
     }
 }
 
