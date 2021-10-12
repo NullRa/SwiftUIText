@@ -12,6 +12,7 @@ struct ContentView: View {
         Text("段落1 Stay Hungry, Stay Foolish.")
             .fontWeight(.bold)
             .font(.system(.largeTitle, design: .rounded))
+            .foregroundColor(.green)
     }
 }
 
