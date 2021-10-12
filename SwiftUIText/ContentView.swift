@@ -14,8 +14,9 @@ struct ContentView: View {
             .font(.system(.largeTitle, design: .rounded))
             .foregroundColor(.green)
             .multilineTextAlignment(.center)
-            .lineLimit(3)
+            .lineLimit(nil)
             .truncationMode(.head)
+            .lineSpacing(10)
     }
 }
 
